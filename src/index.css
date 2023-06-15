@@ -1,0 +1,80 @@
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  margin-top: -16px;
+}
+
+/* Main container */
+
+.main-container {
+  width: 500px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%
+}
+
+/* dots carrusel */
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-container-item {
+  margin: 8px 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+div.active {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
